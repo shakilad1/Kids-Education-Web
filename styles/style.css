@@ -328,18 +328,21 @@ height: 630px;
 }
 .card-2{
     grid-area:card-2;
+
     border-radius: 16px;
 
 background: rgb(255, 255, 255);
 }
 .card-3{
     grid-area:card-3;
+
     border-radius: 16px;
 
 background: rgb(255, 255, 255);
 }
 .card-4{
     grid-area:card-4;
+
     border-radius: 16px;
 
 background: rgb(255, 255, 255);
@@ -349,6 +352,12 @@ background: rgb(255, 255, 255);
     border-radius: 16px;
 
 background: rgb(255, 255, 255);
+}
+.width{
+    border-radius: 16px 16px 0px 0px;
+}
+.width-1{
+    border-radius: 16px 16px 0px 0px;
 }
 .container{
     display: grid;
@@ -360,7 +369,7 @@ background: rgb(255, 255, 255);
 /* footer */
 
 .footer{
-    max-width: 1160px;
+    width: 1440px;
     margin: 0 auto;
     justify-content: space-around;
     background: rgb(1, 172, 253);
@@ -430,7 +439,7 @@ color: rgb(255, 255, 255);
 
 
 
-
+/* media query part for small devices */
 
 @media screen and ( max-width:576px) {
      
@@ -528,7 +537,6 @@ margin-bottom: 25px;
 .feature-1,.feature-2,.feature-3{
     height: auto;
     padding: 0px;
-/* padding: 0px 50px; */ /*ims*/
 padding-top: 40px;
 }
 .read1,.read2,.read3{
@@ -545,8 +553,6 @@ padding-top: 40px;
 /* story part */
 .our-stories{
     width:100%;
-    /* padding-left: 5px;
-    padding-right: 5px; */
     margin: 0px;}
 .main-container{
    width: 100%;
@@ -589,7 +595,6 @@ padding-top: 40px;
    
   width:100%;
    gap:10px;
-   /* grid-template-columns: repeat(2,1fr); */
     grid-template-areas: 
     "card-2 card-3"
     "card-4 card-5"
