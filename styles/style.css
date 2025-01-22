@@ -84,6 +84,9 @@ font-weight: 600;
 padding: 10px 50px;
 border: none;
 }
+marquee{ 
+    color: rgb(42, 71, 165);
+}
 /* shared styles */
 .flex{
     display: flex;
@@ -351,7 +354,71 @@ background: rgb(255, 255, 255);
     "card-1  card-1  card-2  card-3"
     "card-1  card-1  card-4  card-5";
 }
+/* footer */
+.footer{
+    width: 1440px;
+    margin: 0 auto;
+    justify-content: space-around;
+    background: rgb(1, 172, 253);
+    align-items: center;
+    
+}
+#white {
+    background: white;
+    width: 70.34px;
+height: 70.65px;
+}
+.foot-middle{
+    margin: 100px 0px 100px 0px;
+    font-size:1.5rem;
+   font-weight: 700;
+   color: rgb(255, 255, 255);
+}
+.left-des{
+    font-size: 1.25rem;
+font-weight: 400;
+color: rgb(255, 255, 255);
+    position: absolute;
+width: 399.02px;
+height: 100px;
 
+}
+.right-title{
+    font-size:1.625rem;
+font-weight: 700;
+color: rgb(255, 255, 255);
+}
+.list{
+    margin: 20px auto;
+    font-size: 1.25rem;
+font-weight: 500;
+color: rgb(255, 255, 255);
+}
+.middle-title{
+    margin-bottom: 32px;
+}
+
+.left{
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -20px;
+}
+.left-title{
+    font-size:2.625rem;
+font-weight: 700;
+color: rgb(255, 255, 255);
+}
+.foot-left{
+    position: relative;
+    top: -80px;
+}
+.foot-right{
+    position: relative;
+    top: -60px;
+    padding-right: 20px;
+}
 
 
 
@@ -430,15 +497,15 @@ height:45px;
 .curriculum{
    
    width:100%;
-    margin: 0px auto;
+    margin: 0px;
 }
 .bg-img{
-    width: 100%;
+    width:100%;
     margin:0px;
 }
 .features{
     flex-direction: column;
-    width:calc(100% - 20px)
+    width:100%;
     height: auto;
     gap:15px;
     margin-bottom: 10px;
@@ -473,10 +540,12 @@ padding-top: 40px;
 /* story part */
 .our-stories{
     width:100%;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: 0px;}
-    .main-container{
-        width: 100%;
-        margin: 0px auto; 
+.main-container{
+   width: 100%;
+    margin: 0px; 
     }
     .card-1{
         display: none;
@@ -484,6 +553,7 @@ padding-top: 40px;
     .card-2,.card-3,.card-4,.card-5{
         height: auto;
         width: 100%;
+       
     
     }
     .width{
@@ -510,7 +580,7 @@ padding-top: 40px;
 .container{
     margin: 0px 0px;
   width:100%;
-   gap: 11px;
+   gap:10px;
     grid-template-areas: 
     "card-2 card-3"
     "card-4 card-5"
@@ -533,4 +603,36 @@ padding-top: 40px;
     margin-top:20px;
     padding-bottom: 40px;
     
+}
+/* footer section */
+.footer{
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+}
+.left-title{
+    font-size:2.21rem;
+}
+.foot-left{
+    position: relative;
+    top: -8px;
+    right:120px;
+}
+.foot-middle{
+    position: relative;
+    right: 183px;
+}
+.foot-right{
+    position: relative;
+    right: 140px;
+}
+.left{
+    top:30px;
+}
+.right-title{
+    font-size:1.375rem;
+}
+.list{
+    
+    font-size: 1.02rem;
 }
